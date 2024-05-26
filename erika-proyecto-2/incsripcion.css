@@ -1,0 +1,51 @@
+:root
+{
+    --principal-color: rgb(218, 30, 218) ;
+    --detalles-color: rgb(96, 96, 96);
+    --fondo-color: rgb(61, 61, 61);
+    --lineas-color: rgb(28, 28, 28);
+    --letras-claras-color:rgb(191, 191, 191) ;
+    --letras-color: rgb(30, 79, 117) ;
+} 
+header
+{
+    width: 100%;
+    height: 30%;
+    background-color: var(--lineas-color);
+}
+/*todavia no se si va a ir el logo*/ 
+.logo
+{
+    width: 125px;
+    height: 54px;
+    box-shadow: 10px 0px 50px var(--letras-color);
+    text-shadow: 10px 10px 30px var(--principal-color);
+    margin: 25px 68px;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 600;
+    display: inline-flex;
+    color: var(--letras-claras-color);
+}
+.cuerpo
+{
+    width: 100%;
+    height: 90%;
+    background-color: var(--fondo-color);
+}
+.container
+{
+    padding: 70px 40px;
+}
+.col
+{
+    height: 400px;
+    box-shadow: 3px 8px 70px blanchedalmond;
+    margin: 30px;
+}
+.categorias
+{
+    width: 100%;
+    height: 30%;
+    background-color: var(--lineas-color);
+}
